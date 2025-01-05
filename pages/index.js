@@ -38,7 +38,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Subscribe to Our Newsletter</h1>
         <p>Stay updated with our latest news and updates!</p>
-        <form onSubmit={handleSubmit} className={styles.form} name="subscribe" method="POST" data-netlify="true">
+        <form onSubmit={handleSubmit} className={styles.form} name="subscribe" method="POST" netlify>
           <label htmlFor="email">Email Address:</label>
           <input
             type="email"
