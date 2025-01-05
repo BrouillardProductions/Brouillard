@@ -36,8 +36,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Subscribe to Our Newsletter</title>
-        <meta name="description" content="Stay updated with our latest news!" />
+        <title>BROUILLARD</title>
+        {/* <meta name="description" content="Stay updated with our latest news!" /> */}
       </Head>
       <main className={styles.main}>
         <h1 className={styles.title}>Subscribe to Our Newsletter</h1>
@@ -47,7 +47,7 @@ export default function Home() {
           className={styles.form}
           name="subscribe"
           method="POST"
-          netlify
+          data-netlify="true"
         >
           <label htmlFor="email">Email Address:</label>
           <input
